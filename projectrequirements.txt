@@ -1,0 +1,50 @@
+Project Requirements
+
+Functional
+
+Functional requirements are the basic system management. It describes what the system does and its response to inputs by users.
+Category	Description
+Transaction corrections, adjustments and cancellations	This shall check every transaction (approve/cancellation)
+Authentication functions	Confidential/Non-confidential information that users enter in the application
+Certification 	The business will need to obtain certifications to work on the system (security)
+Search	This will tell you how users can search and retrieve data
+Archiving	Application must be able to archive the data for long-term storage 
+Compliance, legal, regulatory 	Laws from government and policies that businesses and their applications must follow
+Backup and Recovery	If the application crashes and wipes data there is a plan/back up to restore data.
+
+ 
+We have started with these basic requirements to get our application started.
+A.	Users must be able to registers and enter the application.
+1.	Sign-up and register page
+2.	Logging in with verifications
+3.	“Forgot password” section that sends a link to the email registered
+
+B.	User much be able to conduct a booking on the application, with options to change/cancel parking booking
+1.	Booking, adjust, cancel, and confirm parking spot booking
+2.	Send confirmation to email and print options for invoice
+3.	Display parking location and parking costs
+
+C.	User must be able to view other parking spots for cheaper/free rates by applying filters.
+1.	Users dash board
+2.	Page with available parking spot based on GPS location
+3.	Feature to filter and organize the parking spots available based on cheaper rates, distance and car size, etc.
+
+ 
+Non-Functional
+
+Non-functional requirements describe how a system must behave and establish constraints of its functionality. 
+We will be covering the most common types of non-functional requirements based on our software.
+
+Category	Description
+Performance	The software application load time should not be more than 3 seconds for users
+Reliability	Users can access their accounts 98% of the time without failure 
+Availability	The system updates parking spot availability every hour throughout the day. In the case of an unplanned downtime, all features will be available again within 30min-1hour.
+Maintainability	If the automated confirmation email /invoice/receipt becomes unavailable, they can be under maintain for approximately 1-2 hours.
+Recoverability	If a major incident happens on the application, the business must take measure to go back to being fully operational within 24 hours.
+Capacity	Up to 1,000, 000 users can be logged during peak hours, from 6am to 10pm and up to 250,000 off peak hours, from 10pm to 6am.
+Serviceability	The users can choose whether to received emails confirmations or keep it store on their account.
+Security	Only users logged in can book spot and view other confidential information, such as credit on file, address, car license, etc.
+Data Integrity	The application shall maintain data integrity by keeping backups of all updates to the database for every record transaction
+Usability	The application interface has to be user friendly and easy to use.
+Specifically for those familiar with touch screen mobile devices.
+It runs on iPhone devices running on iOS versions: 14 and over and Android devices running on version: 10 and over
